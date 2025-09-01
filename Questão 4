@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+const float c = 780000;
+float p1, p2, p3;
+
+int main() {
+    p1 = c * 0.46;
+    p2 = c * 0.32;
+    p3 = c - p1 - p2;
+
+    printf("Prêmio do primeiro: %f\n", p1);
+    printf("Prêmio do segundo: %f\n", p2);
+    printf("Prêmio do terceiro: %f\n", p3);
+
+    return 0;
+}
