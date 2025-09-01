@@ -1,0 +1,11 @@
+#include <stdio.h>
+int x, c;
+int main()
+{
+	 
+
+printf("informe o numero ");
+scanf(" %d", &x);	
+c=2*x-1+3*x+1;
+printf("o numero desejado é:   %d", c );
+}
