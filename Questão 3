@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
+double num1, num2, rzdasoma, somadqd;
+int main()
+{
+	
+
+printf("informe o cateto primeiro: ");
+scanf(" %lf", &num1);	
+printf("informe o cateto segundo: ");
+scanf(" %lf", &num2);	
+somadqd= num1*num1+num2*num2;	
+rzdasoma=sqrt (somadqd);
+printf("a hipotenusa é:   %f", rzdasoma);
+}
