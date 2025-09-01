@@ -1,0 +1,15 @@
+#include <stdio.h>
+char letra, mi;
+int main()
+{
+printf("informe a letra (em maiúscula): ");
+scanf(" %c", &letra);	
+if (  letra <=  'Z'  && letra >='A')
+
+			{
+	printf("a letra em minusculo é :  %c ", mi=letra+32);
+							};			
+
+	
+
+}
