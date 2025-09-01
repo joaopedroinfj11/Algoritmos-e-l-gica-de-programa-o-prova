@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int a, b, c, res;
+
+int main() {
+    printf("Informe o valor de a: ");
+    scanf("%d", &a);
+
+    printf("Informe o valor de b: ");
+    scanf("%d", &b);
+    printf("Informe o valor de c: ");
+    scanf("%d", &c);
+
+    res = (a * a) + (b * b) + (c * c);
+    printf("Valor do cálculo: %d", res);
+
+    return 0;
+}
